@@ -146,26 +146,26 @@ p {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	border: 1px solid #ffc600;
+	border: 1px solid #f05e23;
 	padding: 0 35px;
 	font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 	line-height: 50px;
 	border-radius: 5px;
-    color: #07294d;
+    color: #0a0b0d;
     cursor: pointer;
     position: relative;
     overflow: hidden;
     z-index: 5;
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
-    background-color: #ffc600;
+    background-color: #f05e23;
 }
 .main-btn:hover{
-    color: #ffc600;
-    border-color: #07294d;
-    background-color: #07294d;
+    color: #f05e23;
+    border-color: #0a0b0d;
+    background-color: #0a0b0d;
 }
 
 
@@ -174,7 +174,7 @@ p {
 
 .section-title{}
 .section-title h5{
-    color: #07294d;
+    color: #0a0b0d;
     position: relative;
     padding-bottom: 12px;
 }
@@ -183,7 +183,7 @@ p {
     position: absolute;
     width: 35px;
     height: 2px;
-    background-color: #ffc600;
+    background-color: #f05e23;
     bottom: 0;
     left: 0;
 }
@@ -205,7 +205,7 @@ p {
 	z-index: 9999;
 }
 .preloader .color-1{
-    background-color: #ffc600 !important;
+    background-color: #f05e23 !important;
 }
 .rubix-cube {
 	border: 1px solid #FFF;
@@ -221,7 +221,7 @@ p {
 .rubix-cube .layer{
 	width:14px;
 	height:14px;
-	background-color:#07294d;
+	background-color:#0a0b0d;
 	border:1px solid #FFF;
 	position:absolute;
 	
@@ -405,7 +405,7 @@ p {
 /*===== Header top =====*/
 
 .header-top{
-    background-color: #07294d;
+    background-color: #0a0b0d;
     padding-top: 10px;
     padding-bottom: 10px;
 }
@@ -436,8 +436,21 @@ p {
 
 /*===== Header Logo support =====*/
 
+
+/* MY ADDITION */
+
+  #about-us {      
+            background-color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+
 .header-logo-support{
     border-bottom: 1px solid #cecece;
+    background-color: #f05e23;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-color: black;
 }
 
 .support-button{}
@@ -465,7 +478,7 @@ p {
 }
 .support-button .support .cont span{
     font-size: 18px;
-    color: #07294d;
+    color: #0a0b0d;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
@@ -531,7 +544,7 @@ p {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    color: #07294d;
+    color: #0a0b0d;
     text-transform: uppercase;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
@@ -540,14 +553,14 @@ p {
 
 .navigation .navbar .navbar-nav > li > a.active,
 .navigation .navbar .navbar-nav > li > a:hover{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .navigation .navbar .navbar-nav li .sub-menu{
     position: absolute;
     top: 110%;
     left: 0;
-    background-color: #07294d;
+    background-color: #0a0b0d;
     width: 200px;
     opacity: 0;
     visibility: hidden;
@@ -573,7 +586,7 @@ p {
 .navigation .navbar .navbar-nav li .sub-menu li a.active,
 .navigation .navbar .navbar-nav li .sub-menu li a:hover{
     padding-left: 20px;
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .sub-nav-toggler{
@@ -594,7 +607,7 @@ p {
 .navbar .navbar-toggler .icon-bar {
 	width: 30px;
 	height: 2px;
-	background-color: #07294d;
+	background-color: #0a0b0d;
 	display: block;
 	margin: 5px 0;
     position: relative;
@@ -628,14 +641,14 @@ p {
 
 .right-icon ul li a{
     font-size: 18px;
-    color: #07294d;
+    color: #0a0b0d;
     position: relative;
     padding-right: 7px;
 }
 .right-icon ul li a span{
     font-size: 12px;
     color: #fff;
-    background-color: #ffc600;
+    background-color: #f05e23;
     border-radius: 50%;
     padding: 0px 4px;
     position: absolute;
@@ -693,18 +706,18 @@ p {
 
 .navigation-3.sticky .navbar .navbar-nav li a,
 .navigation-3.sticky .right-icon ul li a{
-    color: #07294d;
+    color: #0a0b0d;
 }
 .navigation-3.sticky .navbar .navbar-nav > li > a.active,
 .navigation-3.sticky .navbar .navbar-nav > li > a:hover{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .navigation-3 .navbar .navbar-toggler .icon-bar{
     background-color: #fff;
 }
 .navigation-3.sticky .navbar .navbar-toggler .icon-bar{
-    background-color: #07294d;
+    background-color: #0a0b0d;
 }
 
 
@@ -757,8 +770,8 @@ p {
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 	background-color: #fff;
-	border: 2px solid #07294d;
-	color: #07294d;
+	border: 2px solid #0a0b0d;
+	color: #0a0b0d;
 	padding-left: 20px;
 	border-radius: 50px;
 }
@@ -771,7 +784,7 @@ p {
     padding: 0;
     border: 0;
     background-color: transparent;
-    color: #07294d;
+    color: #0a0b0d;
     cursor: pointer;
     font-size: 16px;
 }
@@ -899,7 +912,7 @@ p {
 .slider-search .nice-select span {
 	font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    color: #07294d;
+    color: #0a0b0d;
     font-weight: 400;
 }
 .slider-search .nice-select .list {
@@ -909,7 +922,7 @@ p {
 }
 .slider-search .nice-select::after {
 	border-bottom: 0;
-	border-right: 8px solid #07294d;
+	border-right: 8px solid #0a0b0d;
 	border-top: 8px solid transparent;
 	height: 0px;
 	margin-top: -4px;
@@ -932,7 +945,7 @@ p {
 	padding: 0;
 }
 .slider-search .main-btn:hover{
-    border-color: #07294d;
+    border-color: #0a0b0d;
 }
 
 
@@ -979,7 +992,7 @@ p {
 }
 
 .category{
-    background-color: #07294d;
+    background-color: #0a0b0d;
     border-radius: 10px;
     margin-top: -150px;
     position: relative;
@@ -1044,7 +1057,7 @@ p {
     transition: all 0.4s linear;
 }
 .category-slied .slick-arrow i:hover{
-    background-color: #ffc600;
+    background-color: #f05e23;
 }
 
 
@@ -1107,7 +1120,7 @@ p {
     margin-right: 20px;
 }
 .about-event ul li .singel-event span i{
-    color: #ffc600;
+    color: #f05e23;
     margin-right: 3px;
 }
 .about-event ul li .singel-event a{
@@ -1122,7 +1135,7 @@ p {
     transition: all 0.4s linear;
 }
 .about-event ul li .singel-event a:hover h4{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 
@@ -1139,7 +1152,7 @@ p {
 }
 
 .apply-color-1{
-    background-color: #07294d;
+    background-color: #0a0b0d;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -1162,7 +1175,7 @@ p {
     padding-bottom: 45px;
 }
 .apply .apply-cont .main-btn:hover{
-    border-color: #ffc600;
+    border-color: #f05e23;
 }
 
 
@@ -1198,14 +1211,14 @@ p {
 }
 .singel-course .thum .price span{
     font-size: 14px;
-    color: #07294d;
+    color: #0a0b0d;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     width: 55px;
     height: 55px;
     line-height: 55px;
     border-radius: 50%;
-    background-color: #ffc600;
+    background-color: #f05e23;
     text-align: center;
 }
 .singel-course .cont{
@@ -1224,7 +1237,7 @@ p {
 }
 .singel-course .cont ul li > i{
     font-size: 13px;
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .singel-course .cont span{
@@ -1241,7 +1254,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-course .cont h4:hover{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .singel-course .course-teacher{
@@ -1270,7 +1283,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-course .course-teacher .name a:hover h6{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .singel-course .course-teacher .admin{
@@ -1294,7 +1307,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-course .course-teacher .admin ul li a:hover{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .singel-course .course-teacher .admin ul li a span{
@@ -1327,8 +1340,8 @@ p {
 }
 
 .course-slied .slick-arrow:hover i{
-    border-color: #ffc600;
-    background-color: #ffc600;
+    border-color: #f05e23;
+    background-color: #f05e23;
 }
 
 
@@ -1357,8 +1370,8 @@ p {
     line-height: 120px;
     text-align: center;
     font-size: 24px;
-    background-color: #ffc600;
-    color: #07294d;
+    background-color: #f05e23;
+    color: #0a0b0d;
     border-radius: 50%;
 }
 
@@ -1445,7 +1458,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-teachers .cont a:hover h6{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .singel-teachers .cont span{
@@ -1499,17 +1512,17 @@ p {
 }
 .singel-publication .image .add-cart ul li a{
     font-size: 16px;
-    color: #ffc600;
+    color: #f05e23;
     width: 35px;
     line-height: 35px;
-    border: 1px solid #ffc600;
+    border: 1px solid #f05e23;
     text-align: center;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
 .singel-publication .image .add-cart ul li a:hover{
-    background-color: #ffc600;
-    color: #07294d;
+    background-color: #f05e23;
+    color: #0a0b0d;
 }
 
 
@@ -1537,7 +1550,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-publication .cont .name a:hover h6{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .singel-publication .cont .name span{
@@ -1598,9 +1611,9 @@ p {
     height: 45px;
     line-height: 45px;
     text-align: center;
-    background-color: #ffc600;
+    background-color: #f05e23;
     border-radius: 50%;
-    color: #07294d;
+    color: #0a0b0d;
     font-size: 18px;
 }
 .singel-testimonial .testimonial-cont {
@@ -1639,7 +1652,7 @@ p {
 }
 
 .testimonial-slied .slick-dots li.slick-active button{
-    background-color: #ffc600;
+    background-color: #f05e23;
 }
 
 
@@ -1667,11 +1680,11 @@ p {
     font-size: 15px;
 }
 .singel-news .news-cont ul li a i{
-    color: #ffc600;
+    color: #f05e23;
     margin-right: 8px;
 }
 .singel-news .news-cont ul li a span{
-    color: #07294d;
+    color: #0a0b0d;
 }
 .singel-news .news-cont a{
     display: block;
@@ -1685,7 +1698,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-news .news-cont a:hover h3{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .news-list .news-cont h3{
@@ -1701,7 +1714,7 @@ p {
 ======================================================*/
 
 .footer-top{
-    background-color: #07294d;
+    background-color: #0a0b0d;
 }
 
 .footer-about {
@@ -1732,7 +1745,7 @@ p {
     
 }
 .footer-about ul li a:hover{
-    background-color: #ffc600;
+    background-color: #f05e23;
     color: #021d3a;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
@@ -1764,12 +1777,12 @@ p {
 }
 .footer-link ul li a i{
     margin-right: 8px;
-    color: #ffc600;
+    color: #f05e23;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
 .footer-link ul li a:hover {
-    color: #ffc600;
+    color: #f05e23;
 }
 .footer-link ul li a:hover i{
     margin-right: 15px;
@@ -1790,7 +1803,7 @@ p {
 
 .footer-address ul li .icon i{
     font-size: 18px;
-    color: #ffc600;
+    color: #f05e23;
     position: absolute;
     left: 0;
     top: 5px;
@@ -1803,7 +1816,7 @@ p {
 }
 
 .footer-copyright{
-    background-color: #021d3a;
+    background-color: #f05e23;
 }
 .footer-copyright .copyright p{
     color: #fff;
@@ -1819,7 +1832,7 @@ p {
     width: 40px;
     height: 40px;
     line-height: 35px;
-    background-color: #ffc600;
+    background-color: #f05e23;
     color: #fff;
     font-size: 28px;
     border-radius: 5px;
@@ -1879,7 +1892,7 @@ p {
     color: #fff;
 }
 .category-2-items .singel-items .items-cont h5:hover{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 
@@ -1891,12 +1904,12 @@ p {
 	margin-top: -154px;
 }
 .category-form .form-title{
-    background-color: #07294d;
+    background-color: #0a0b0d;
     padding-top: 35px;
     padding-bottom: 40px;
 }
 .category-form .form-title h3{
-    color: #ffc600;
+    color: #f05e23;
     font-size: 36px;
 }
 .category-form .form-title span{
@@ -1951,14 +1964,14 @@ p {
 }
 .singel-course-2 > .thum .price span {
 	font-size: 14px;
-	color: #07294d;
+	color: #0a0b0d;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	width: 55px;
 	height: 55px;
 	line-height: 55px;
 	border-radius: 50%;
-	background-color: #ffc600;
+	background-color: #f05e23;
 	text-align: center;
 }
 
@@ -1991,7 +2004,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-course-2 > .thum .course-teacher .name h6:hover{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .singel-course-2 > .thum .course-teacher .review{
@@ -2003,7 +2016,7 @@ p {
 .singel-course-2 > .thum .course-teacher .review ul li{
     display: inline-block;
     font-size: 12px;
-    color: #ffc600;
+    color: #f05e23;
 }
 .singel-course-2 > .thum .course-teacher .review ul li{}
 
@@ -2018,7 +2031,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-course-2 .cont h4:hover{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 
@@ -2032,7 +2045,7 @@ p {
 }
 .singel-counter span{
     font-size: 36px;
-    color: #ffc600;
+    color: #f05e23;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
@@ -2047,7 +2060,7 @@ p {
 
 .counter-3{}
 .counter-3 p{
-    color: #07294d;
+    color: #0a0b0d;
     font-weight: 600;
 }
 
@@ -2085,7 +2098,7 @@ p {
     transition: all 0.4s linear;
 }
 .teachers-2 .teachers-2-singel .cont a:hover h5{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .teachers-2 .teachers-2-singel .cont p{
@@ -2093,11 +2106,11 @@ p {
 }
 .teachers-2 .teachers-2-singel .cont span{
     font-size: 14px;
-    color: #07294d;
+    color: #0a0b0d;
 }
 .teachers-2 .teachers-2-singel .cont span i{
     margin-right: 5px;
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .student-slied{
@@ -2105,7 +2118,7 @@ p {
 }
 
 .happy-student{
-    background-color: #07294d;
+    background-color: #0a0b0d;
     padding-top: 65px;
     padding-left: 80px;
     padding-right: 80px;
@@ -2113,7 +2126,7 @@ p {
     border-radius: 5px;
     position: relative;
 }.happy-student{
-    background-color: #07294d;
+    background-color: #0a0b0d;
     padding-top: 65px;
     padding-left: 80px;
     padding-right: 80px;
@@ -2172,7 +2185,7 @@ p {
     height: 100%;
     background: -webkit-gradient(linear, left top, right top, from(rgba(7,41,77,0.3)),color-stop(10%, rgba(7,41,77,0.3)),to(rgba(7,41,77,1)));
     background: linear-gradient(to right, rgba(7,41,77,0.3) 0%,rgba(7,41,77,0.3) 10%,rgba(7,41,77,1) 100%); 
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d07294d', endColorstr='#07294d',GradientType=1 ); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d07294d', endColorstr='#0a0b0d',GradientType=1 ); 
 }
 
 .event-2 .event-title h3 {
@@ -2194,7 +2207,7 @@ p {
 	margin-right: 20px;
 }
 .event-2 ul li .singel-event span i {
-	color: #ffc600;
+	color: #f05e23;
 	margin-right: 3px;
 }
 .event-2 ul li .singel-event a {
@@ -2210,7 +2223,7 @@ p {
     transition: all 0.4s linear;
 }
 .event-2 ul li .singel-event a:hover h4 {
-    color: #ffc600;
+    color: #f05e23;
 }
 
 
@@ -2230,7 +2243,7 @@ p {
 }
 .count-down-cont h2{
     font-size: 72px;
-    color: #ffc600;
+    color: #f05e23;
     font-weight: 700;
     padding-bottom: 37px;
 }
@@ -2271,12 +2284,12 @@ p {
     z-index: 5;
 }
 .category-form-3 .form-title {
-	background-color: #ffc600;
+	background-color: #f05e23;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 .category-form-3 .form-title h3 {
-	color: #07294d;
+	color: #0a0b0d;
 }
 .category-form-3 .form-title span {
     font-weight: 600;
@@ -2285,8 +2298,8 @@ p {
     color: #fff;
 }
 .category-form-3 .main-btn:hover{
-    color: #ffc600;
-    border-color: #07294d;
+    color: #f05e23;
+    border-color: #0a0b0d;
 }
 
 
@@ -2309,7 +2322,7 @@ p {
     padding: 0;
 }
 .page-banner-cont .breadcrumb .breadcrumb-item {
-	color: #ffc600;
+	color: #f05e23;
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 2px;
@@ -2379,7 +2392,7 @@ p {
 }
 
 .courses-top-search .nav .nav-item a.active{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .courses-search{
@@ -2421,7 +2434,7 @@ p {
 }
 .courses-pagination .pagination .page-item a{
     font-size: 15px;
-    color: #07294d;
+    color: #0a0b0d;
     width: 40px;
     height: 40px;
     line-height: 36px;
@@ -2433,8 +2446,8 @@ p {
 }
 .courses-pagination .pagination .page-item a.active,
 .courses-pagination .pagination .page-item a:hover{
-    background-color: #ffc600;
-    border-color: #ffc600;
+    background-color: #f05e23;
+    border-color: #f05e23;
 }
 
 
@@ -2503,7 +2516,7 @@ p {
 }
 .corses-singel-left .course-terms ul li .review ul li a {
     font-size: 14px;
-    color: #ffc600;
+    color: #f05e23;
 }
 .corses-singel-left .course-terms ul li .review ul li.rating{
     font-size: 14px;
@@ -2615,7 +2628,7 @@ p {
 }
 
 .curriculam-cont .accordion .card .card-header a ul li > i{
-    color: #ffc600;
+    color: #f05e23;
     font-size: 15px;
     margin-right: 5px;
 }
@@ -2759,7 +2772,7 @@ p {
 .reviews-cont ul li .singel-reviews .reviews-description .rating ul li{
     display: inline-block;
     font-size: 15px;
-    color: #ffc600;
+    color: #f05e23;
 }
 .reviews-cont ul li .singel-reviews .reviews-description .rating span{
     font-size: 15px;
@@ -2808,7 +2821,7 @@ p {
 
 .reviews-cont .reviews-form .form-singel .rate:hover,
 .reviews-cont .reviews-form .form-singel .rate.selected {
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .reviews-cont .reviews-form .form-singel .rate .rate-item:hover ~ .rate-item,
@@ -2818,7 +2831,7 @@ p {
 
 .releted-courses .title h3{
     font-size: 30px;
-    color: #07294d;
+    color: #0a0b0d;
 }
 
 .course-features{
@@ -2829,7 +2842,7 @@ p {
 .course-features h4,
 .You-makelike h4{
     font-size: 24px;
-    color: #07294d;
+    color: #0a0b0d;
     padding-bottom: 15px;
 }
 .course-features ul{}
@@ -2845,7 +2858,7 @@ p {
 }
 
 .course-features ul li i{
-    color: #ffc600;
+    color: #f05e23;
     margin-right: 8px;
 }
 .course-features ul li span{
@@ -2863,7 +2876,7 @@ p {
     margin-top: 12px;
 }
 .course-features .price-button span b{
-    color: #ffc600;
+    color: #f05e23;
 }
 .course-features .price-button .main-btn{
     float: right;
@@ -2912,13 +2925,13 @@ p {
     transition: all 0.4s linear;
 }
 .You-makelike .singel-makelike .cont h4:hover{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .You-makelike .singel-makelike .cont ul li {
     display: inline-block;
     margin-right: 15px;
-    color: #ffc600;
+    color: #f05e23;
 }
 .You-makelike .singel-makelike .cont ul li a{
     font-size: 14px;
@@ -2967,7 +2980,7 @@ p {
 	margin-right: 20px;
 }
 .singel-event-list .event-cont span i {
-	color: #ffc600;
+	color: #f05e23;
 	margin-right: 3px;
 }
 .singel-event-list .event-cont a {
@@ -2982,7 +2995,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-event-list .event-cont a:hover h4 {
-    color: #ffc600;
+    color: #f05e23;
 }
 
 
@@ -3009,7 +3022,7 @@ p {
 }
 
 .events-left span i {
-	color: #ffc600;
+	color: #f05e23;
 	margin-right: 3px;
 }
 
@@ -3035,7 +3048,7 @@ p {
 .events-coundwon .count-down-time .singel-count{}
 .events-coundwon .count-down-time .singel-count .number {
 	font-size: 24px;
-	color: #ffc600;
+	color: #f05e23;
 }
 .events-coundwon .count-down-time .singel-count .title{
     font-size: 13px;
@@ -3064,14 +3077,14 @@ p {
 }
 .events-address ul li .singel-address .icon i{
     font-size: 15px;
-    color: #ffc600;
+    color: #f05e23;
 }
 .events-address ul li .singel-address .cont{
     padding-left: 23px;
 }
 .events-address ul li .singel-address .cont h6{
     font-size: 15px;
-    color: #07294d;
+    color: #0a0b0d;
 }
 .events-address ul li .singel-address .cont span{
     font-size: 14px;
@@ -3206,7 +3219,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-blog .blog-cont a:hover h3{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .singel-blog .blog-cont ul {
@@ -3224,7 +3237,7 @@ p {
     color: #8a8a8a;
 }
 .singel-blog .blog-cont ul li a i{
-    color: #ffc600;
+    color: #f05e23;
     margin-right: 5px;
 }
 .singel-blog .blog-cont p{}
@@ -3271,7 +3284,7 @@ p {
 .saidbar .categories h4,
 .saidbar .saidbar-post h4{
     font-size: 24px;
-    color: #07294d;
+    color: #0a0b0d;
 }
 .saidbar .categories ul{
     padding-top: 15px;
@@ -3286,7 +3299,7 @@ p {
     transition: all 0.4s linear;
 }
 .saidbar .categories ul li a:hover{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .saidbar .saidbar-post{
@@ -3323,7 +3336,7 @@ p {
     transition: all 0.4s linear;
 }
 .saidbar .saidbar-post ul li a .singel-post .cont h6:hover{
-    color: #ffc600;
+    color: #f05e23;
 }
 
 .saidbar .saidbar-post ul li a .singel-post .cont span{
@@ -3360,7 +3373,7 @@ p {
 }
 
 .blog-details .cont ul li a i{
-    color: #ffc600;
+    color: #f05e23;
     margin-right: 5px;
 }
 
@@ -3385,7 +3398,7 @@ p {
     line-height: 35px;
     border-radius: 50%;
     font-size: 16px;
-    background-color: #ffc600;
+    background-color: #f05e23;
     text-align: center;
     color: #fff;
     margin-right: 0;
@@ -3502,7 +3515,7 @@ p {
     color: #8a8a8a;
 }
 .shop-top-search .nav .nav-item a.active {
-	color: #ffc600;
+	color: #f05e23;
 }
 .shop-top-search .shop-select {
 	display: inline-block;
@@ -3677,7 +3690,7 @@ p {
 .releted-item{}
 .releted-item .title h3{
     font-size: 30px;
-    color: #07294d;
+    color: #0a0b0d;
 }
 
 
@@ -3756,8 +3769,8 @@ p.form-message.error {
     width: 50px;
     line-height: 50px;
     border-radius: 50%;
-    border: 1px solid #07294d;
-    color: #07294d;
+    border: 1px solid #0a0b0d;
+    color: #0a0b0d;
     font-size: 24px;
     text-align: center;
 }
