@@ -1,5 +1,5 @@
 /*
-  Theme Name: Feldor Technology
+  Theme Name: LAYLAH’S WAY
   Author: ZeTheme
   Author URL: https://themeforest.net/user/pixelcurve
   Support: zetheme24@gmail.com
@@ -146,7 +146,7 @@ p {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	border: 1px solid #f05e23;
+	border: 1px solid rgb(1, 210, 98);
 	padding: 0 35px;
 	font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -160,10 +160,10 @@ p {
     z-index: 5;
     -webkit-transition: 0.4s ease-in-out;
     transition: 0.4s ease-in-out;
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
 }
 .main-btn:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     border-color: #0a0b0d;
     background-color: #0a0b0d;
 }
@@ -183,7 +183,7 @@ p {
     position: absolute;
     width: 35px;
     height: 2px;
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
     bottom: 0;
     left: 0;
 }
@@ -205,7 +205,7 @@ p {
 	z-index: 9999;
 }
 .preloader .color-1{
-    background-color: #f05e23 !important;
+    background-color: rgb(1, 210, 98) !important;
 }
 .rubix-cube {
 	border: 1px solid #FFF;
@@ -447,7 +447,7 @@ p {
 
 .header-logo-support{
     border-bottom: 1px solid #cecece;
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
     padding-top: 30px;
     padding-bottom: 30px;
     text-color: black;
@@ -553,7 +553,7 @@ p {
 
 .navigation .navbar .navbar-nav > li > a.active,
 .navigation .navbar .navbar-nav > li > a:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .navigation .navbar .navbar-nav li .sub-menu{
@@ -586,7 +586,7 @@ p {
 .navigation .navbar .navbar-nav li .sub-menu li a.active,
 .navigation .navbar .navbar-nav li .sub-menu li a:hover{
     padding-left: 20px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .sub-nav-toggler{
@@ -648,7 +648,7 @@ p {
 .right-icon ul li a span{
     font-size: 12px;
     color: #fff;
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
     border-radius: 50%;
     padding: 0px 4px;
     position: absolute;
@@ -710,7 +710,7 @@ p {
 }
 .navigation-3.sticky .navbar .navbar-nav > li > a.active,
 .navigation-3.sticky .navbar .navbar-nav > li > a:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .navigation-3 .navbar .navbar-toggler .icon-bar{
@@ -1057,7 +1057,7 @@ p {
     transition: all 0.4s linear;
 }
 .category-slied .slick-arrow i:hover{
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
 }
 
 
@@ -1098,7 +1098,7 @@ p {
 .about-event{
     -webkit-box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
     box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
-    padding: 65px 70px 37px;
+    padding: 105px 70px 37px;
     background-color: rgba(255, 255, 255, 0.95);
 }
 .about-event .event-title h3{
@@ -1120,7 +1120,7 @@ p {
     margin-right: 20px;
 }
 .about-event ul li .singel-event span i{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     margin-right: 3px;
 }
 .about-event ul li .singel-event a{
@@ -1135,7 +1135,7 @@ p {
     transition: all 0.4s linear;
 }
 .about-event ul li .singel-event a:hover h4{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 
@@ -1175,7 +1175,7 @@ p {
     padding-bottom: 45px;
 }
 .apply .apply-cont .main-btn:hover{
-    border-color: #f05e23;
+    border-color: rgb(1, 210, 98);
 }
 
 
@@ -1218,7 +1218,7 @@ p {
     height: 70px;
     line-height: 70px;
     border-radius: 50%;
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
     text-align: center;
 }
 .singel-course .cont{
@@ -1237,7 +1237,7 @@ p {
 }
 .singel-course .cont ul li > i{
     font-size: 13px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .singel-course .cont span{
@@ -1254,7 +1254,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-course .cont h4:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .singel-course .course-teacher{
@@ -1283,7 +1283,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-course .course-teacher .name a:hover h6{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .singel-course .course-teacher .admin{
@@ -1307,7 +1307,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-course .course-teacher .admin ul li a:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .singel-course .course-teacher .admin ul li a span{
@@ -1340,8 +1340,8 @@ p {
 }
 
 .course-slied .slick-arrow:hover i{
-    border-color: #f05e23;
-    background-color: #f05e23;
+    border-color: rgb(1, 210, 98);
+    background-color: rgb(1, 210, 98);
 }
 
 
@@ -1370,7 +1370,7 @@ p {
     line-height: 120px;
     text-align: center;
     font-size: 24px;
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
     color: #0a0b0d;
     border-radius: 50%;
 }
@@ -1458,7 +1458,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-teachers .cont a:hover h6{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .singel-teachers .cont span{
@@ -1512,16 +1512,16 @@ p {
 }
 .singel-publication .image .add-cart ul li a{
     font-size: 16px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     width: 35px;
     line-height: 35px;
-    border: 1px solid #f05e23;
+    border: 1px solid rgb(1, 210, 98);
     text-align: center;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
 .singel-publication .image .add-cart ul li a:hover{
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
     color: #0a0b0d;
 }
 
@@ -1550,7 +1550,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-publication .cont .name a:hover h6{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .singel-publication .cont .name span{
@@ -1611,7 +1611,7 @@ p {
     height: 45px;
     line-height: 45px;
     text-align: center;
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
     border-radius: 50%;
     color: #0a0b0d;
     font-size: 18px;
@@ -1652,7 +1652,7 @@ p {
 }
 
 .testimonial-slied .slick-dots li.slick-active button{
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
 }
 
 
@@ -1680,7 +1680,7 @@ p {
     font-size: 15px;
 }
 .singel-news .news-cont ul li a i{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     margin-right: 8px;
 }
 .singel-news .news-cont ul li a span{
@@ -1698,7 +1698,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-news .news-cont a:hover h3{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .news-list .news-cont h3{
@@ -1745,7 +1745,7 @@ p {
     
 }
 .footer-about ul li a:hover{
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
     color: #021d3a;
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
@@ -1777,12 +1777,12 @@ p {
 }
 .footer-link ul li a i{
     margin-right: 8px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     -webkit-transition: all 0.4s linear;
     transition: all 0.4s linear;
 }
 .footer-link ul li a:hover {
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 .footer-link ul li a:hover i{
     margin-right: 15px;
@@ -1803,7 +1803,7 @@ p {
 
 .footer-address ul li .icon i{
     font-size: 18px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     position: absolute;
     left: 0;
     top: 5px;
@@ -1816,7 +1816,7 @@ p {
 }
 
 .footer-copyright{
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
 }
 .footer-copyright .copyright p{
     color: #fff;
@@ -1832,7 +1832,7 @@ p {
     width: 40px;
     height: 40px;
     line-height: 35px;
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
     color: #fff;
     font-size: 28px;
     border-radius: 5px;
@@ -1892,7 +1892,7 @@ p {
     color: #fff;
 }
 .category-2-items .singel-items .items-cont h5:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 
@@ -1909,7 +1909,7 @@ p {
     padding-bottom: 40px;
 }
 .category-form .form-title h3{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     font-size: 36px;
 }
 .category-form .form-title span{
@@ -1971,7 +1971,7 @@ p {
 	height: 55px;
 	line-height: 55px;
 	border-radius: 50%;
-	background-color: #f05e23;
+	background-color: rgb(1, 210, 98);
 	text-align: center;
 }
 
@@ -2004,7 +2004,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-course-2 > .thum .course-teacher .name h6:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .singel-course-2 > .thum .course-teacher .review{
@@ -2016,7 +2016,7 @@ p {
 .singel-course-2 > .thum .course-teacher .review ul li{
     display: inline-block;
     font-size: 12px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 .singel-course-2 > .thum .course-teacher .review ul li{}
 
@@ -2031,7 +2031,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-course-2 .cont h4:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 
@@ -2045,7 +2045,7 @@ p {
 }
 .singel-counter span{
     font-size: 36px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
@@ -2098,7 +2098,7 @@ p {
     transition: all 0.4s linear;
 }
 .teachers-2 .teachers-2-singel .cont a:hover h5{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .teachers-2 .teachers-2-singel .cont p{
@@ -2110,7 +2110,7 @@ p {
 }
 .teachers-2 .teachers-2-singel .cont span i{
     margin-right: 5px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .student-slied{
@@ -2207,7 +2207,7 @@ p {
 	margin-right: 20px;
 }
 .event-2 ul li .singel-event span i {
-	color: #f05e23;
+	color: rgb(1, 210, 98);
 	margin-right: 3px;
 }
 .event-2 ul li .singel-event a {
@@ -2223,7 +2223,7 @@ p {
     transition: all 0.4s linear;
 }
 .event-2 ul li .singel-event a:hover h4 {
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 
@@ -2243,7 +2243,7 @@ p {
 }
 .count-down-cont h2{
     font-size: 72px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     font-weight: 700;
     padding-bottom: 37px;
 }
@@ -2284,7 +2284,7 @@ p {
     z-index: 5;
 }
 .category-form-3 .form-title {
-	background-color: #f05e23;
+	background-color: rgb(1, 210, 98);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
@@ -2298,7 +2298,7 @@ p {
     color: #fff;
 }
 .category-form-3 .main-btn:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     border-color: #0a0b0d;
 }
 
@@ -2322,7 +2322,7 @@ p {
     padding: 0;
 }
 .page-banner-cont .breadcrumb .breadcrumb-item {
-	color: #f05e23;
+	color: rgb(1, 210, 98);
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 2px;
@@ -2392,7 +2392,7 @@ p {
 }
 
 .courses-top-search .nav .nav-item a.active{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .courses-search{
@@ -2446,8 +2446,8 @@ p {
 }
 .courses-pagination .pagination .page-item a.active,
 .courses-pagination .pagination .page-item a:hover{
-    background-color: #f05e23;
-    border-color: #f05e23;
+    background-color: rgb(1, 210, 98);
+    border-color: rgb(1, 210, 98);
 }
 
 
@@ -2516,7 +2516,7 @@ p {
 }
 .corses-singel-left .course-terms ul li .review ul li a {
     font-size: 14px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 .corses-singel-left .course-terms ul li .review ul li.rating{
     font-size: 14px;
@@ -2628,7 +2628,7 @@ p {
 }
 
 .curriculam-cont .accordion .card .card-header a ul li > i{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     font-size: 15px;
     margin-right: 5px;
 }
@@ -2772,7 +2772,7 @@ p {
 .reviews-cont ul li .singel-reviews .reviews-description .rating ul li{
     display: inline-block;
     font-size: 15px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 .reviews-cont ul li .singel-reviews .reviews-description .rating span{
     font-size: 15px;
@@ -2821,7 +2821,7 @@ p {
 
 .reviews-cont .reviews-form .form-singel .rate:hover,
 .reviews-cont .reviews-form .form-singel .rate.selected {
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .reviews-cont .reviews-form .form-singel .rate .rate-item:hover ~ .rate-item,
@@ -2858,7 +2858,7 @@ p {
 }
 
 .course-features ul li i{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     margin-right: 8px;
 }
 .course-features ul li span{
@@ -2876,7 +2876,7 @@ p {
     margin-top: 12px;
 }
 .course-features .price-button span b{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 .course-features .price-button .main-btn{
     float: right;
@@ -2925,13 +2925,13 @@ p {
     transition: all 0.4s linear;
 }
 .You-makelike .singel-makelike .cont h4:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .You-makelike .singel-makelike .cont ul li {
     display: inline-block;
     margin-right: 15px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 .You-makelike .singel-makelike .cont ul li a{
     font-size: 14px;
@@ -2980,7 +2980,7 @@ p {
 	margin-right: 20px;
 }
 .singel-event-list .event-cont span i {
-	color: #f05e23;
+	color: rgb(1, 210, 98);
 	margin-right: 3px;
 }
 .singel-event-list .event-cont a {
@@ -2995,7 +2995,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-event-list .event-cont a:hover h4 {
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 
@@ -3022,7 +3022,7 @@ p {
 }
 
 .events-left span i {
-	color: #f05e23;
+	color: rgb(1, 210, 98);
 	margin-right: 3px;
 }
 
@@ -3048,7 +3048,7 @@ p {
 .events-coundwon .count-down-time .singel-count{}
 .events-coundwon .count-down-time .singel-count .number {
 	font-size: 24px;
-	color: #f05e23;
+	color: rgb(1, 210, 98);
 }
 .events-coundwon .count-down-time .singel-count .title{
     font-size: 13px;
@@ -3077,7 +3077,7 @@ p {
 }
 .events-address ul li .singel-address .icon i{
     font-size: 15px;
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 .events-address ul li .singel-address .cont{
     padding-left: 23px;
@@ -3219,7 +3219,7 @@ p {
     transition: all 0.4s linear;
 }
 .singel-blog .blog-cont a:hover h3{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .singel-blog .blog-cont ul {
@@ -3237,7 +3237,7 @@ p {
     color: #8a8a8a;
 }
 .singel-blog .blog-cont ul li a i{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     margin-right: 5px;
 }
 .singel-blog .blog-cont p{}
@@ -3299,7 +3299,7 @@ p {
     transition: all 0.4s linear;
 }
 .saidbar .categories ul li a:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .saidbar .saidbar-post{
@@ -3336,7 +3336,7 @@ p {
     transition: all 0.4s linear;
 }
 .saidbar .saidbar-post ul li a .singel-post .cont h6:hover{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
 }
 
 .saidbar .saidbar-post ul li a .singel-post .cont span{
@@ -3373,7 +3373,7 @@ p {
 }
 
 .blog-details .cont ul li a i{
-    color: #f05e23;
+    color: rgb(1, 210, 98);
     margin-right: 5px;
 }
 
@@ -3398,7 +3398,7 @@ p {
     line-height: 35px;
     border-radius: 50%;
     font-size: 16px;
-    background-color: #f05e23;
+    background-color: rgb(1, 210, 98);
     text-align: center;
     color: #fff;
     margin-right: 0;
@@ -3515,7 +3515,7 @@ p {
     color: #8a8a8a;
 }
 .shop-top-search .nav .nav-item a.active {
-	color: #f05e23;
+	color: rgb(1, 210, 98);
 }
 .shop-top-search .shop-select {
 	display: inline-block;

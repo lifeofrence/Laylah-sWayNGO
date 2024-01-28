@@ -1,5 +1,5 @@
 /*
-  Theme Name: Feldor Technology
+  Theme Name: LAYLAH’S WAY
   Author: Humayun Ahmed
   Author URL: https://themeforest.net/user/pixelcurve
   Support: humayunahmed82@gmail.com
