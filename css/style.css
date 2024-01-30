@@ -402,6 +402,33 @@ p {
 ======================================================*/
 
 
+.fh5co-section-gray {
+    background: rgba(0, 0, 0, 0.04);
+  }
+  
+  .heading-section {
+    padding-bottom: 1em;
+    margin-bottom: 5em;
+  }
+  .heading-section:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 50%;
+    width: 100px;
+    margin-left: -50px;
+    height: 2px;
+    background: #ff5722;
+  }
+  .heading-section h3 {
+    font-size: 40px;
+    font-weight: 300;
+    position: relative;
+  }
+  .heading-section p {
+    font-size: 20px;
+  }
+  
 /*===== Header top =====*/
 
 .header-top{
