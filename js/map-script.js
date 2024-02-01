@@ -104,13 +104,14 @@ function basicmap() {
 
         // Let's also add a marker while we're at it
         var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(23.694182, 90.457313),
+            position: new google.maps.LatLng(65.31735,25.3731),
             map: map,
             title: 'Cryptox'
         });
     }
     if ($('#contact-map').length != 0) {
-        google.maps.event.addDomListener(window, 'load', basicmap);
+        window.addEventListener('load', basicmap);
+
     }
     
 

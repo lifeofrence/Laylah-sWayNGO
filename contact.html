@@ -87,7 +87,7 @@
     <!--====== PAGE BANNER PART START ======-->
 
     <section id="page-banner" class="pt-105 pb-130 bg_cover" data-overlay="8"
-        style="background-image: url(images/page-banner-1.jpg)">
+        style="background-image: url(images/page-contact.jpg)">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -95,15 +95,15 @@
                         <h2>Contact</h2>
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Contact</li>
                             </ol>
                         </nav>
-                    </div> <!-- page banner cont -->
+                    </div> 
                 </div>
             </div> <!-- row -->
         </div> <!-- container -->
-    </section>
+    </section> 
 
     <!--====== PAGE BANNER PART ENDS ======-->
 
@@ -120,7 +120,8 @@
                             <h2>Keep in touch</h2>
                         </div> <!-- section title -->
                         <div class="main-form pt-45">
-                            <form id="contact-form" action="#" method="post" data-toggle="validator">
+                            <form id="contact-form" action="php/mail.php" class="ajax-form" method="post" data-toggle="validator">
+                               
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="singel-form form-group">
@@ -157,10 +158,15 @@
                                             <div class="help-block with-errors"></div>
                                         </div> <!-- singel form -->
                                     </div>
+                                    <div class="g-recaptcha" data-sitekey="6LdG92MpAAAAAJDceXe5fis3yTK2uIeslnTzUj43"></div>
+                                    <input type="hidden" name="g-recaptcha-response" id="g-recaptcha-response">
+                                
                                     <p class="form-message"></p>
                                     <div class="col-md-12">
                                         <div class="singel-form">
-                                            <button type="submit" class="main-btn">Send</button>
+                                            <button type="button" class="main-btn" onclick="executeRecaptcha()">Send</button>
+
+
                                         </div> <!-- singel form -->
                                     </div>
                                 </div> <!-- row -->
@@ -177,7 +183,12 @@
                                         <i class="fa fa-home"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>Abuja, Nigeria</p>
+                                        <p>
+                                            No 498 Kumasi Crescent, off Aminu Kano Crescent, Wuse II, Abuja, Nigeria
+                                            <br>
+                                            <a href="https://www.google.com/maps/place/LAYLAH%E2%80%99S+WAY/@9.0794131,7.475142,17z/data=!3m1!4b1!4m6!3m5!1s0x104e0af9c4a95555:0xf489dcdd7dcf5709!8m2!3d9.0794078!4d7.4777169!16s%2Fg%2F11kq8f_639?entry=ttu" target="_blank">View on Map</a>
+                                        </p>
+                                        
                                     </div>
                                 </div> <!-- singel address -->
                             </li>
@@ -187,8 +198,9 @@
                                         <i class="fa fa-phone"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>+234 81</p>
-                                        <!-- <p>+1 222 345 342</p> -->
+                                        <p><a href="tel:+2347066777774">+234 7066 777 774</a></p>
+
+                                    
                                     </div>
                                 </div> <!-- singel address -->
                             </li>
@@ -198,7 +210,8 @@
                                         <i class="fa fa-envelope-o"></i>
                                     </div>
                                     <div class="cont">
-                                        <p>laylahway@gmail.com</p>
+                                        <p><a href="mailto:info@laylahway.org">info@laylahway.org</a></p>
+
                                        
                                     </div>
                                 </div> <!-- singel address -->
@@ -295,6 +308,20 @@
     });
 </script>
 
+<script src="https://www.google.com/recaptcha/api.js?render=6LdG92MpAAAAAJDceXe5fis3yTK2uIeslnTzUj43"></script>
+
+<script>
+    function onSubmit(token) {
+        document.getElementById("g-recaptcha-response").value = token;
+        document.getElementById("contact-form").submit();
+    }
+</script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+    function executeRecaptcha() {
+        grecaptcha.execute();
+    }
+</script>
 </body>
 
 </html>
