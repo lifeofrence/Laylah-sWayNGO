@@ -35,6 +35,7 @@
 
     <!--====== Fontawesome css ======-->
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <!--====== Default css ======-->
     <link rel="stylesheet" href="css/default.css">
@@ -362,32 +363,32 @@
                     <div class="section-title text-center pb-30">
                         <h2>Contact Us</h2>
                     </div>
-                    <div class="footer-address text-center">
+                    <div class="footer-address text-center" style="color: #333;">
                         <ul style="list-style: none; padding: 0;">
                             <li style="margin-bottom: 20px;">
-                                <div class="icon" style="display: inline-block; margin-right: 10px;">
+                                <div class="icon" style="display: inline-block; margin-right: 10px; color: #555;">
                                     <i class="fa fa-home"></i>
                                 </div>
                                 <div class="cont" style="display: inline-block;">
-                                    <p><strong>Laylah's Way Orphanage Home</strong><br>
+                                    <p style="color: #333;"><strong>Laylah's Way Orphanage Home</strong><br>
                                         No. 10 Sam Okwaraji Street<br>
                                         Gwarinpa, Abuja, Nigeria</p>
                                 </div>
                             </li>
                             <li style="margin-bottom: 20px;">
-                                <div class="icon" style="display: inline-block; margin-right: 10px;">
+                                <div class="icon" style="display: inline-block; margin-right: 10px; color: #555;">
                                     <i class="fa fa-phone"></i>
                                 </div>
                                 <div class="cont" style="display: inline-block;">
-                                    <p><a href="tel:+2347066777774">07066777774</a></p>
+                                    <p><a href="tel:+2347066777774" style="color: #333;">07066777774</a></p>
                                 </div>
                             </li>
                             <li style="margin-bottom: 20px;">
-                                <div class="icon" style="display: inline-block; margin-right: 10px;">
+                                <div class="icon" style="display: inline-block; margin-right: 10px; color: #555;">
                                     <i class="fa fa-envelope-o"></i>
                                 </div>
                                 <div class="cont" style="display: inline-block;">
-                                    <p><a href="mailto:info@laylahsway.com">info@laylahsway.com</a></p>
+                                    <p><a href="mailto:info@laylahsway.com" style="color: #333;">info@laylahsway.com</a></p>
                                 </div>
                             </li>
                         </ul>
@@ -457,6 +458,14 @@
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('navbar-placeholder').innerHTML = data;
+                    const logoImg = document.querySelector('#navbar-placeholder .logo');
+                    if (logoImg) {
+                        logoImg.src = 'images/oasislogo.jpg';
+                        logoImg.alt = 'The Oasis Logo';
+                        logoImg.style.width = 'auto';
+                        logoImg.style.height = '60px';
+                        logoImg.style.objectFit = 'contain';
+                    }
                 });
         });
 
@@ -465,6 +474,14 @@
                 .then(response => response.text())
                 .then(data => {
                     document.getElementById('footer-placeholder').innerHTML = data;
+                    const footerLogo = document.querySelector('#footer-placeholder .footer-about .logo img');
+                    if (footerLogo) {
+                        footerLogo.src = 'images/oasislogo.jpg';
+                        footerLogo.alt = 'The Oasis Logo';
+                        footerLogo.style.width = 'auto';
+                        footerLogo.style.maxHeight = '80px';
+                        footerLogo.style.objectFit = 'contain';
+                    }
                 });
         });
     </script>
